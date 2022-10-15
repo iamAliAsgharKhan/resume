@@ -521,7 +521,7 @@ section.home .cta {
   max-width: 540px;
 }
 section.home .cta h1 {
-  font-size: 72px;
+  font-size: 4em;
   line-height: 0.9em;
 }
 section.home .cta p {
@@ -567,6 +567,11 @@ section.home .cta p {
   width: 100%;
   z-index: 1;
 }
+.portfolio-item .details .term{
+ font-size: 1.2em;
+}
+
+
 .portfolio-item .details h4 {
   color: #FFF;
   margin: 0 0 10px;
@@ -576,7 +581,6 @@ section.home .cta p {
 }
 .portfolio-item .details span {
   font-size: 11px;
-  text-transform: uppercase;
   opacity: 0;
   display: block;
   transform: translateY(40px);
@@ -1245,7 +1249,7 @@ body.dark #return-to-top:hover {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #333;
+  color: rgb(255, 255, 255);
   background-color: #FFF;
   background-image: none;
   border: solid 1px #ECECEC;
@@ -1255,6 +1259,7 @@ body.dark #return-to-top:hover {
 
 .form-control:focus {
   border-color: #9013FE;
+  color: rgb(255, 255, 255);
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1269,7 +1274,7 @@ body.dark #return-to-top:hover {
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
-  color: #555;
+  color: rgb(255, 255, 255);
   text-align: center;
   background-color: transparent;
   border: 0;
